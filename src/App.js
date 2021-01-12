@@ -1,12 +1,14 @@
 import './App.css';
 import Counter from './components/counter'
+import {CounterTwo} from './components/CounterTwo'
+
 
 
 function App() {
   return (
     <div>
-    <Counter/>
     
+    <CounterTwo/>  
    
     </div>
   );
